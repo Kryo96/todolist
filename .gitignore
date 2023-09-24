@@ -1,0 +1,52 @@
+.idea
+target
+
+### Spring Boot ###
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.rar
+*.zip
+
+# Temporary folders
+bin/
+build/
+out/
+target/
+
+# IDE files (You can enhance this according to your IDE)
+.idea/
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+*.bak
+*.backup
+*.swp
+*.swo
+*.rej
+*.tlog
+*.log1
+*.rdb
+*.gnucash
+*.dat
+*.dat.*
+
+# Eclipse files
+.classpath
+.project
+.settings/
+springToolSuite4.ini
+
+# NetBeans files
+nb-configuration.xml
+nbactions.xml
+
+# VS Code
+.vscode/
+
+# macOS files
+.DS_Store
