@@ -25,9 +25,9 @@ public class Todo {
 
     private String todo ;
 
-    public Todo(String todo){
-        super();
+    public Todo(String todo, User user){
         this.todo = todo;
+        this.user = user;
     }
 
 

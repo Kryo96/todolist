@@ -52,7 +52,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!-- login dependency -->
+		<!-- security dependency -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
@@ -77,7 +77,7 @@
 			<version>0.11.5</version>
 			<scope>runtime</scope>
 		</dependency>
-		<!--end login dependency -->
+		<!--end security dependency -->
 		<!--swagger dependencies -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
