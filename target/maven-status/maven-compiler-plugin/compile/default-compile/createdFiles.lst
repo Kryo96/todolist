@@ -1,0 +1,10 @@
+progetto/react/com/counter/accessControl/RegisterController.class
+progetto/react/com/counter/repository/UserRepo.class
+progetto/react/com/counter/entity/Utenti.class
+progetto/react/com/counter/dto/LoginRequest.class
+progetto/react/com/counter/accessControl/LoginController.class
+progetto/react/com/counter/config/JwtTokenProvider.class
+progetto/react/com/counter/repository/TodoListRepo.class
+progetto/react/com/counter/accessControl/AuthController.class
+progetto/react/com/counter/PageController.class
+progetto/react/com/counter/dto/RegReq.class

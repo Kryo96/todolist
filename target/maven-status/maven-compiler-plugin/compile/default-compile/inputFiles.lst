@@ -1,0 +1,15 @@
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/config/JwtTokenProvider.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/PageController.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/entity/Utenti.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/entity/TodoList.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/accessControl/LoginController.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/accessControl/RegisterController.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/dto/LoginRequest.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/repository/UserRepo.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/accessControl/AuthController.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/HomeController.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/config/JwtTokenFilter.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/repository/TodoListRepo.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/CounterApplication.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/config/SecurityConfig.java
+/Users/vavaste/Codestorm/Stage/todolist/src/main/java/progetto/react/com/counter/dto/RegReq.java
