@@ -1,4 +1,4 @@
-package progetto.react.com.counter.entity;
+package progetto.react.com.counter.models;
 
 
 import jakarta.persistence.*;
@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Getter
 @Setter
-public class TodoList {
+public class Todo {
 
 
     @Id
@@ -20,12 +20,12 @@ public class TodoList {
     private int numero;
 
     @ManyToOne
-    @JoinColumn(name = "Utenti_id")
-    private Utenti utenti;
+    @JoinColumn(name = "user_id")
+    private User user;
 
     private String todo ;
 
-    public TodoList(String todo){
+    public Todo(String todo){
         super();
         this.todo = todo;
     }
