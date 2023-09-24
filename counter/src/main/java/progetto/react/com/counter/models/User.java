@@ -9,7 +9,6 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 import lombok.Getter;
 import lombok.Setter;
-import progetto.react.com.counter.models.Role;
 
 @Entity
 @Table(name = "users",
