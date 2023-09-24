@@ -2,7 +2,6 @@ package progetto.react.com.counter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import progetto.react.com.counter.entity.TodoList;
@@ -27,9 +26,10 @@ public class HomeController {
 
     @GetMapping("/GetTodoList")
     @CrossOrigin
-    public ResponseEntity<?> getTodoList(@AuthenticationPrincipal Utenti utenti){
+    public ResponseEntity<?> getTodoList(Utenti utenti){
         Long id = utenti.getId();
-        List<TodoList> userTodoList = repo.findTodosByUserId(id);
+        Utenti user = userRepo.getReferenceById(id);
+        List<TodoList> userTodoList = repo.findTodoListsByUtenti(user);
         return ResponseEntity.ok(userTodoList);
     }
 
